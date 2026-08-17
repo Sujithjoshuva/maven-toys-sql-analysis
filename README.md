@@ -64,3 +64,63 @@ inventory
    | Store_ID
    |
 stores
+
+
+## Lesson 2 — Store Performance Analysis
+
+### Objective
+
+Analyze store-level performance using transaction activity, total units sold, average units sold per transaction, and product-level rankings.
+
+### SQL Concepts Learned
+
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `GROUP BY`
+- `ORDER BY`
+- `INNER JOIN`
+- Subqueries
+- `ROW_NUMBER()`
+- `PARTITION BY`
+- `CASE WHEN`
+- Benchmark-based classification
+- Multi-level query structure
+
+### Analysis Performed
+
+- Ranked stores by transaction activity
+- Calculated total units sold by store
+- Calculated average units sold per transaction
+- Identified top products within individual stores
+- Used `ROW_NUMBER()` and `PARTITION BY` to rank products within each store
+- Created store performance benchmarks
+- Classified all 50 stores into four performance groups
+- Translated SQL results into business insights
+
+### Key Findings
+
+- Maven Toys Ciudad de Mexico 2 (Store 31) recorded the highest transaction activity with **1,029 transactions**.
+- Store 31 also recorded the highest average units per transaction at **1.4762**.
+- **12 of 50 stores** were classified as Strong Performers.
+- **4 of 50 stores** were classified as Higher Traffic, Lower Basket.
+- **10 of 50 stores** were classified as Lower Traffic, Higher Basket.
+- **24 of 50 stores** were classified as Needs Improvement based on the selected benchmarks.
+
+### Store Performance Benchmarks
+
+| Metric | Benchmark |
+|---|---:|
+| Average transactions per store | 600 |
+| Average units per transaction | 1.3193 |
+
+### Project Files
+
+- [Lesson 2 SQL](sql/02_store_performance_analysis.sql)
+- [Lesson 2 Findings](findings/02_store_performance_findings.md)
+
+### Project Progress
+
+- [x] Lesson 1 — Data Quality Checks
+- [x] Lesson 2 — Store Performance Analysis
+- [ ] Lesson 3
