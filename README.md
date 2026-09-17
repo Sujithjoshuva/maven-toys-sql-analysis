@@ -28,12 +28,11 @@ The project is developed lesson by lesson, with SQL queries and business insight
 | **3 — Product & Category Performance** | Analyzed units, revenue, cost, profit, profit margin, and category rankings. | `SUM()`, `GROUP BY`, `JOIN`, Subqueries, `ROW_NUMBER()` | **Colorbuds** had the highest units sold (**3,916**). **Lego Bricks** had the highest product revenue (**$85,218.69**). **Electronics** had the highest category profit margin (**44.85%**). | [SQL](sql/03_product_category_performance.sql) · [Insights](insights/03_product_category_performance_insights.md) |
 | **4 — Inventory Analysis** | Compared inventory with historical sales and classified inventory positions. | `LEFT JOIN`, `SUM()`, Subqueries, `CASE WHEN`, `ROW_NUMBER()`, Multi-level aggregation | **13** products were potential replenishment candidates, **17** potential overstock candidates, and **5** had a normal inventory position. | [SQL](sql/04_inventory_analysis.sql) · [Insights](insights/04_inventory_analysis_insights.md) |
 | **5 — Sales Trend Analysis** | Analyzed monthly sales, revenue, profit, MoM changes, and YoY growth. | `LAG()`, `ROW_NUMBER()`, MoM, YoY Analysis | **December 2022** had the highest profit (**8,755**); **March 2023** had the highest YoY profit growth (**37.94%**). | [SQL](sql/05_sales_trend_analysis.sql) · [Insights](insights/05_sales_trend_analysis_insights.md) |
+| **6 - Advanced Store & Product Performance** | Analyzed store and product performance using revenue, profit, profit margin, rankings, benchmarks, and performance groups. | `CTEs`, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `PARTITION BY`, `CROSS JOIN`, `CASE WHEN`, Benchmark Analysis | Store 31 generated the highest revenue and profit; 16 stores were classified as High Revenue + High Profit. | [SQL](sql/06_advanced_store_&_product_performance_analysis.sql) · [Insights](insights/06_advanced_store_&_product_analysis_insights.md) |
 
 ---
-
 ## Skills Demonstrated
 
-`SQL` · `SELECT` · `WHERE` · `GROUP BY` · `ORDER BY` · `COUNT()` · `SUM()` · `AVG()` · `DISTINCT` · `HAVING` · `JOINs` · `LEFT JOIN` · `CASE WHEN` · `Subqueries` · `Aggregations` · `Window Functions` · `ROW_NUMBER()` · `LAG()` · `PARTITION BY` · `MoM Analysis` · `YoY Analysis` · `Business Metrics` · `Inventory Analysis` · `Sales Trend Analysis` · `Business Insights`
+SQL, data aggregation, filtering, grouping, sorting, JOINs, subqueries, CTEs, CASE WHEN, window functions, ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), PARTITION BY, CROSS JOIN, MoM analysis, YoY analysis, benchmark analysis, inventory analysis, store performance analysis, product performance analysis, and business insights.
 
----
 
