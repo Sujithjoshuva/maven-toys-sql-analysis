@@ -29,10 +29,15 @@ The project is developed lesson by lesson, with SQL queries and business insight
 | **4 — Inventory Analysis** | Compared inventory with historical sales and classified inventory positions. | `LEFT JOIN`, `SUM()`, Subqueries, `CASE WHEN`, `ROW_NUMBER()`, Multi-level aggregation | **13** products were potential replenishment candidates, **17** potential overstock candidates, and **5** had a normal inventory position. | [SQL](sql/04_inventory_analysis.sql) · [Insights](insights/04_inventory_analysis_insights.md) |
 | **5 — Sales Trend Analysis** | Analyzed monthly sales, revenue, profit, MoM changes, and YoY growth. | `LAG()`, `ROW_NUMBER()`, MoM, YoY Analysis | **December 2022** had the highest profit (**8,755**); **March 2023** had the highest YoY profit growth (**37.94%**). | [SQL](sql/05_sales_trend_analysis.sql) · [Insights](insights/05_sales_trend_analysis_insights.md) |
 | **6 - Advanced Store & Product Performance** | Analyzed store and product performance using revenue, profit, profit margin, rankings, benchmarks, and performance groups. | `CTEs`, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `PARTITION BY`, `CROSS JOIN`, `CASE WHEN`, Benchmark Analysis | Store 31 generated the highest revenue and profit; 16 stores were classified as High Revenue + High Profit. | [SQL](sql/06_advanced_store_&_product_performance_analysis.sql) · [Insights](insights/06_advanced_store_&_product_analysis_insights.md) |
+| **7 - Advanced KPI & Contribution Analysis** | Analyzed store revenue contribution, cumulative revenue, revenue quartiles, total profit, and profit margins. | `SUM() OVER()`, Cumulative Totals, Contribution %, `NTILE(4)`, CTEs, `GROUP BY`, Profit Margin Analysis | Store 31 generated the highest revenue at $19,073.81. The top 10 stores contributed 26.97% of total revenue. Quartile 3 had the highest profit margin at 28.40%. | [SQL](sql/07_advanced_kpi_contribution_analysis.sql) · [Insights](insights/07_advanced_kpi_contribution_analysis_insights.md) |
 
 ---
 ## Skills Demonstrated
 
-SQL, data aggregation, filtering, grouping, sorting, JOINs, subqueries, CTEs, CASE WHEN, window functions, ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), PARTITION BY, CROSS JOIN, MoM analysis, YoY analysis, benchmark analysis, inventory analysis, store performance analysis, product performance analysis, and business insights.
+**SQL Fundamentals:** Data aggregation, filtering, grouping, sorting, JOINs, subqueries, Common Table Expressions (CTEs), `CASE WHEN`, and `CROSS JOIN`.
 
+**Advanced SQL:** Window functions, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `PARTITION BY`, cumulative totals, and `NTILE()`.
 
+**Business & KPI Analysis:** Month-over-Month (MoM) analysis, Year-over-Year (YoY) analysis, benchmark analysis, revenue contribution analysis, quartile analysis, and profit margin analysis.
+
+**Business Applications:** Store performance analysis, product performance analysis, inventory analysis, sales trend analysis, KPI analysis, and business insights.
