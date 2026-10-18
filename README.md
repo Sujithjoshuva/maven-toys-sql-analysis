@@ -7,6 +7,16 @@ SQL analysis of Maven Toys retail data covering data quality, store performance,
 The project is developed lesson by lesson, with SQL queries and business insights documented separately.
 
 ---
+### Dataset Source and Limitation
+
+- **Dataset:** Maven Toys
+- **Source:** [Kaggle — Maven Toys by tanvir25](https://www.kaggle.com/datasets/tanvir25/maven-toys)
+- **Licence displayed on Kaggle:** Apache License 2.0
+- **Tables:** Products, Stores, Inventory, and Sales
+
+**Data Sampling Note:** Due to laptop hardware and performance limitations, the sales analysis was conducted using a 30,000-row sample instead of the complete sales dataset. This approach allowed the SQL queries and business analysis to be completed within the available system resources.
+
+**Limitation:** The findings and numerical results in this project are based on the 30,000-row sales sample and may differ from results obtained using the full dataset.
 
 ## Dataset
 
